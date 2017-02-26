@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CA4888F5-B679-4895-8597-E652AE8B28B2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrmFramework</RootNamespace>
+    <AssemblyName>OrmFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="attributes\Column.cs" />
+    <Compile Include="attributes\Date.cs" />
+    <Compile Include="attributes\ManyToOne.cs" />
+    <Compile Include="attributes\NotNull.cs" />
+    <Compile Include="attributes\OneToMany.cs" />
+    <Compile Include="attributes\PrimaryKey.cs" />
+    <Compile Include="attributes\Table.cs" />
+    <Compile Include="connections\ConnectionReader.cs" />
+    <Compile Include="connections\Connection.cs" />
+    <Compile Include="connections\MySqlCrudCommand.cs" />
+    <Compile Include="connections\MySqlDatabase.cs" />
+    <Compile Include="connections\MySqlIterator.cs" />
+    <Compile Include="enums\TableType.cs" />
+    <Compile Include="exceptions\PrimaryKeyException.cs" />
+    <Compile Include="connections\Repository.cs" />
+    <Compile Include="connections\XmlConnection.cs" />
+    <Compile Include="converters\MySqlTypeConverter.cs" />
+    <Compile Include="core\Entity.cs" />
+    <Compile Include="core\EntityField.cs" />
+    <Compile Include="core\OrmManager.cs" />
+    <Compile Include="core\Resource.cs" />
+    <Compile Include="enums\ConnectionType.cs" />
+    <Compile Include="enums\DatabaseOperation.cs" />
+    <Compile Include="enums\EntityError.cs" />
+    <Compile Include="enums\FetchType.cs" />
+    <Compile Include="enums\SchemaCreationPriority.cs" />
+    <Compile Include="exceptions\ConfigurationException.cs" />
+    <Compile Include="exceptions\ConnectionCreationException.cs" />
+    <Compile Include="exceptions\EntityException.cs" />
+    <Compile Include="exceptions\EntityIteratorException.cs" />
+    <Compile Include="exceptions\ForeignKeyException.cs" />
+    <Compile Include="exceptions\GenericTypeException.cs" />
+    <Compile Include="exceptions\InvalidRepositoryException.cs" />
+    <Compile Include="exceptions\MySqlDateConversionException.cs" />
+    <Compile Include="exceptions\OrmFrameworkAttributeException.cs" />
+    <Compile Include="exceptions\TableAttributeNotFoundException.cs" />
+    <Compile Include="exceptions\TableNotFoundException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

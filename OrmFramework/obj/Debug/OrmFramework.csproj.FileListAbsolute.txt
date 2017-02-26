@@ -1,0 +1,14 @@
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\bin\Debug\OrmFramework.dll
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\bin\Debug\OrmFramework.pdb
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\obj\Debug\OrmFramework.dll
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\obj\Debug\OrmFramework.pdb
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\obj\Debug\OrmFramework.csprojResolveAssemblyReference.cache
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\bin\Debug\MySql.Data.dll
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\bin\Debug\MySql.Data.xml
+C:\Users\barte\Desktop\OrmFramework (6)\OrmFramework\bin\Debug\OrmFramework.dll
+C:\Users\barte\Desktop\OrmFramework (6)\OrmFramework\bin\Debug\OrmFramework.pdb
+C:\Users\barte\Desktop\OrmFramework (6)\OrmFramework\bin\Debug\MySql.Data.dll
+C:\Users\barte\Desktop\OrmFramework (6)\OrmFramework\bin\Debug\MySql.Data.xml
+C:\Users\barte\Desktop\OrmFramework (6)\OrmFramework\obj\Debug\OrmFramework.csprojResolveAssemblyReference.cache
+C:\Users\barte\Desktop\OrmFramework (6)\OrmFramework\obj\Debug\OrmFramework.dll
+C:\Users\barte\Desktop\OrmFramework (6)\OrmFramework\obj\Debug\OrmFramework.pdb

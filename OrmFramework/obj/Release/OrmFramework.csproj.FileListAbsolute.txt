@@ -1,0 +1,7 @@
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\bin\Release\OrmFramework.dll
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\bin\Release\OrmFramework.pdb
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\bin\Release\MySql.Data.dll
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\bin\Release\MySql.Data.xml
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\obj\Release\OrmFramework.csprojResolveAssemblyReference.cache
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\obj\Release\OrmFramework.dll
+D:\Dysk Google\VisualWorkspace\dotNetProject\OrmFramework\OrmFramework\obj\Release\OrmFramework.pdb

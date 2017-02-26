@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Connection>
+  <MySqlConnection connectionString="Server=localhost;Database=test1;Uid=root;Pwd=root" priority="FrameworkFirst">
+    <Table name="Ord"></Table>
+    <Table name="User"></Table>
+  </MySqlConnection>
+</Connection>
